@@ -50,7 +50,7 @@ hi Title           ctermbg=NONE ctermfg=250    guibg=NONE     guifg=#B3B8C4  cte
 hi Constant        ctermbg=NONE ctermfg=130    guibg=NONE     guifg=#B3B8C4  cterm=NONE      gui=NONE
 " hi Constant        ctermbg=NONE ctermfg=130    guibg=NONE     guifg=#BCBCBC  cterm=NONE      gui=NONE
 hi Function        ctermbg=NONE ctermfg=9      guibg=NONE     guifg=#CC6666  cterm=NONE      gui=NONE
-hi Identifier      ctermbg=NONE ctermfg=179    guibg=NONE     guifg=#E5C078  cterm=NONE      gui=NONE
+hi Identifier      ctermbg=NONE ctermfg=179    guibg=NONE     guifg=#B3B8C4  cterm=NONE      gui=NONE
 hi PreProc         ctermbg=NONE ctermfg=109    guibg=NONE     guifg=#85A7A5  cterm=NONE      gui=NONE
 hi Special         ctermbg=NONE ctermfg=103    guibg=NONE     guifg=#7D8FA3  cterm=NONE      gui=NONE
 hi SpecialKey      ctermbg=NONE ctermfg=59     guibg=NONE     guifg=#4C5966  cterm=NONE      gui=NONE
