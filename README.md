@@ -1,5 +1,8 @@
 # Spacegray.vim
 
+This verison of Spacegray has been slightly modified by me.
+Constants now have no special coloring, Identifiers neither.
+
 Spacegray is a colorscheme for Vim loosely modeled after
 the [spacegray](https://github.com/zdne/spacegray-xcode) theme for Xcode.
 
