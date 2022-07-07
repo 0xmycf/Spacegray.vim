@@ -33,6 +33,10 @@ if !exists('g:spacegray_blue_background')
   let g:spacegray_blue_background = 0
 endif
 
+if !exists('g:spacegray_italic_types')
+  let g:spacegray_italic_types = 0
+endif
+
 let g:colors_name = 'spacegraymycf'
 
 " Colorscheme definitions {{{
@@ -66,7 +70,12 @@ hi SpecialKey      ctermbg=NONE ctermfg=59     guibg=NONE     guifg=#4C5966  cte
 hi SpecialComment  ctermbg=NONE ctermfg=242    guibg=NONE     guifg=#657785  cterm=bold      gui=bold
 hi Statement       ctermbg=NONE ctermfg=13     guibg=NONE     guifg=#A57A9E  cterm=NONE      gui=NONE
 hi String          ctermbg=NONE ctermfg=107    guibg=NONE     guifg=#95B47B  cterm=NONE      gui=NONE
-hi Type            ctermbg=NONE ctermfg=179    guibg=NONE     guifg=#E5C078  cterm=NONE      gui=NONE
+
+if g:spacegray_italic_types
+  hi Type           ctermbg=NONE ctermfg=179    guibg=NONE     guifg=#E5C078  cterm=italic    gui=italic
+else
+  hi Type           ctermbg=NONE ctermfg=179    guibg=NONE     guifg=#E5C078  cterm=NONE      gui=NONE
+" hi Type            ctermbg=NONE ctermfg=179    guibg=NONE     guifg=#E5C078  cterm=NONE      gui=NONE
 
 hi Cursor          ctermbg=fg   ctermfg=bg     guibg=fg       guifg=bg       cterm=NONE      gui=NONE
 hi CursorColumn    ctermbg=0    ctermfg=NONE   guibg=#303030  guifg=NONE     cterm=NONE      gui=NONE
