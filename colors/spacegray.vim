@@ -85,7 +85,7 @@ if g:spacegray_italic_types
   hi Type           ctermbg=NONE ctermfg=179    guibg=NONE     guifg=#E5C078  cterm=italic    gui=italic
 else
   hi Type           ctermbg=NONE ctermfg=179    guibg=NONE     guifg=#E5C078  cterm=NONE      gui=NONE
-" hi Type            ctermbg=NONE ctermfg=179    guibg=NONE     guifg=#E5C078  cterm=NONE      gui=NONE
+endif
 
 hi Cursor          ctermbg=fg   ctermfg=bg     guibg=fg       guifg=bg       cterm=NONE      gui=NONE
 hi CursorColumn    ctermbg=0    ctermfg=NONE   guibg=#303030  guifg=NONE     cterm=NONE      gui=NONE
