@@ -15,13 +15,25 @@ You can tweak Spacegray by enabling the following disabled options:
 
   > `let g:spacegray_underline_search = 1`
 
-2. Use Italics: Use italics when appropriate, e.g. for comments. (_note_:
+2. Use Italics: Use italics for comments. (_note_:
    terminal must support italics). Put the following in your `~/.vimrc` to
    enable it:
 
   > `let g:spacegray_use_italics = 1`
 
-3. Use lower contrast: Use a low contrast variant of Spacegray. Put the
+3. Blue Background: changes the background color to a more blue version
+
+  > let g:spacegray_blue_background = 1
+
+4. Italic Types: Renders Types and Type annotations in Italic
+
+  > let g:spacegray_italic_types = 1
+
+5. Italic Keywords: Renders Keywords in Italic
+
+  > let g:spacegray_italic_keywords = 1
+
+6. Use lower contrast: Use a low contrast variant of Spacegray. Put the
    following in your `~/.vimrc` to enable it:
 
   > `let g:spacegray_low_contrast = 1`

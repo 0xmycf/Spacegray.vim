@@ -37,6 +37,10 @@ if !exists('g:spacegray_italic_types')
   let g:spacegray_italic_types = 0
 endif
 
+if !exists('g:spacegray_italic_keywords')
+  let g:spacegray_italic_keywords = 0
+endif
+
 let g:colors_name = 'spacegraymycf'
 
 " Colorscheme definitions {{{
@@ -56,6 +60,12 @@ if g:spacegray_use_italics
   hi Comment       ctermbg=NONE ctermfg=242    guibg=NONE     guifg=#657785  cterm=italic    gui=italic
 else
   hi Comment       ctermbg=NONE ctermfg=242    guibg=NONE     guifg=#657785  cterm=italic    gui=NONE
+endif
+
+if g:spacegray_italic_keywords
+  hi Keyword       ctermbg=NONE ctermfg=13     guibg=NONE     guifg=#A57A9E  cterm=italic    gui=italic
+else
+  hi Keyword       ctermbg=NONE ctermfg=13     guibg=NONE     guifg=#A57A9E  cterm=NONE    gui=NONE
 endif
 
 hi Conceal         ctermbg=NONE ctermfg=250    guibg=NONE     guifg=#B3B8C4  cterm=NONE      gui=NONE
